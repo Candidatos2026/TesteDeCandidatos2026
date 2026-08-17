@@ -1,0 +1,14 @@
+{
+  "name": "teste-eleitoral-backend-pagamento",
+  "version": "1.0.0",
+  "description": "Backend mínimo para cobrar R$5 via Mercado Pago e liberar o resultado do teste eleitoral",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mercadopago": "^2.0.15"
+  }
+}
